@@ -6,6 +6,7 @@ const Header = ({ siteTitle }) => (
     style={{
       background: '#000080',
       marginBottom: '1.45rem',
+      
     }}
   >
   
@@ -39,9 +40,10 @@ const Header = ({ siteTitle }) => (
   
 
   <div class="header-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">Contact</a>
+    <a class="active" href="/">Home</a>
     <a href="#about">About</a>
+    <a href="#news">Resources</a>
+    <a href="contacts">Leadership</a>
   </div>
   
   <div class="profit">
